@@ -1,0 +1,7 @@
+Dracula Oficial
+Material Icon Theme 
+
+pip install selenium 
+pip uninstall selenium
+
+python -m pip install --upgrade pip
