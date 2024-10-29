@@ -1,1 +1,2 @@
-print(teste)
+from mouseinfo import mouseInfo
+mouseInfo()
