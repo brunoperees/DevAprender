@@ -1,7 +1,18 @@
 Dracula Oficial
 Material Icon Theme 
+AutoSave Delay 100
 
 pip install selenium 
 pip uninstall selenium
 
 python -m pip install --upgrade pip
+
+
+
+git config --global user.name "Bruno Peres"
+git config --global user.email brunoperees@gmail.com
+
+
+
+pip install pyautogui
+pip install pillow
