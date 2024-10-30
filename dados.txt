@@ -1,0 +1,2 @@
+BRRDP022560, Brasil, Rio das Pedras,Prédio Administrativo _ RDP, 09/10/2024, 27/09/2024, 36, Número da nota, ordem da compra, Vale de entrada
+BRRDP022560, Brasil, Rio das Pedras,Prédio Administrativo _ RDP, dataRecebimento, dataCompra, Garantia, Número da nota, ordem da compra, Vale de entrada, proprietario

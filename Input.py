@@ -21,3 +21,11 @@ print(10/6)
 print(10//6) #Divisão de inteiro
 print(10%6)  #Modulos - Restante de uma divisão
 print(10**6) #Exponencial
+print(10**6) #Exponencial
+print(10**6) #Exponencial
+
+is
+and
+or 
+and not
+not
