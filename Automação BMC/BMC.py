@@ -25,7 +25,8 @@ with open('dados.txt','r') as dados:
         pyautogui.moveTo(1215,261, duration=2) #Editar ativo
         pyautogui.click()
 
-        pyautogui.moveTo(1224,275, duration=2) #Rolagem ditar ativo 
+        pyautogui.moveTo(1224,275, duration=2) #Rolagem ditar ativo
+        sleep(1) 
         pyautogui.scroll(-1005) #Scroll (Barra lateral)
         sleep(1)
 
@@ -76,24 +77,28 @@ with open('dados.txt','r') as dados:
         pyautogui.click(971,900, duration=2)
         pyautogui.write(ve)
         sleep(1) 
+
+        pyautogui.moveTo(1045,714, duration=2) #Posição de rolagel Rolagem lateral (Proprietario)
+        sleep(1) 
+        pyautogui.scroll(-500) #Scroll (Barra lateral)
+        sleep(1)
+
+        pyautogui.click(1115,743, duration=2) #
+        pyautogui.click(89,820, duration=2)
+       
         
+        proprietario = linha.split(',')[10]
+        pyautogui.click(1261,385, duration=2) #Clique na caixa de texto do Proprietario
+        pyautogui.write(proprietario)         #Escrever Proprietario
+        
+        sleep(1)
+        pyautogui.press('enter')              #Enter para listar Proprietario
+        sleep(1)
 
-""" 79,672 recebimento
-43,732 clique fora para entrar
-556,776 compra
-43,732 clique fora para entrar
-540,483 garantia
-43,732 clique fora para entrar
-113,897 nf
-503,901 oc
-971,900 ov
-
-
-
-96,260 Pais dataRecebimento, dataCompra, Garantia, Número da nota, ordem da compra, Vale de entrada
-507,253 Localizacao
-932,250 Setor """
-
+        pyautogui.click(1013,557, duration=2) #Clique em Selecionar Proprietario
+        pyautogui.click(1841,954, duration=2) #Clique Salvar Proprietario
+        pyautogui.click(1831,963, duration=2) #Clique Salvar Modificações
+       
 
 # 1 - Clica na Lupa em Buscar 
 # 2 - Mudar a busca para Ativo
