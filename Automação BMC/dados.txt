@@ -1,1 +1,1 @@
-BRRDP022565,Brasil,Rio das Pedras,Prédio Fabrica _ RDP,27/09/2024 00:00:00,27/09/2024 00:00:00,36,97474,56513819,lkuli
+BRRDP022586,Brasil,Rio das Pedras,Prédio Fabrica _ RDP,27/09/2024 00:00:00,27/09/2024 00:00:00,36,97474,56513819,N/A,lkuli

@@ -16,3 +16,5 @@ git config --global user.email brunoperees@gmail.com
 
 pip install pyautogui
 pip install pillow
+
+python instal keyboard

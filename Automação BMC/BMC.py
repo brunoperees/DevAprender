@@ -10,7 +10,7 @@ pyautogui.click()
 pyautogui.moveTo(122,424, duration=2) #Opção "Ativo"
 pyautogui.click()
 
-with open('dados.txt','r') as dados:
+with open('C:/Users/bfloriano/Desktop/Python/DevAprender/Automação BMC/dados.txt','r') as dados:
     for linha in dados:
         patrimonio = linha.split(',')[0]
         pyautogui.click(363,185, duration=2)
@@ -40,10 +40,10 @@ with open('dados.txt','r') as dados:
         pyautogui.write(cidade)
         sleep(1)
 
-        setor = linha.split(',')[3]
+        """ setor = linha.split(',')[3]
         pyautogui.click(932,250, duration=2)
         pyautogui.write(setor)
-        sleep(1) 
+        sleep(1)  """
 
         recebimento = linha.split(',')[4]
         pyautogui.click(79,672, duration=2)

@@ -55,3 +55,8 @@ pyautogui.click(x=1066,y=226,duration=2)
 captcha = pyautogui.locateCenterOnScreen('nomedaimagem.jpg') #Encontra o centro da imagem
 pyautogui.click(captcha[0], captcha[1],duration=2) #Usa os parametos armazenados acima
 
+#Usando comparação com cor 
+
+pyautogui.pixelMatchesColor(312,231(32,723,31)) #2 Primeiras são coordenadas do clique e as outras da cor
+
+
