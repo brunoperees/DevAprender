@@ -1,14 +1,21 @@
+1º Instalar Python (Direto do site), marcar opção PATH
+
+2º Instalar VSCode direto do site
+
+3º Instalar as extensões no VSCode
+Python
 Dracula Oficial
-Material Icon Theme 
-AutoSave Delay 100
+Material Icon Theme
+ 
+4º Configurar Preferencias no VS Code
+AutoSave (AfterDelay)
+Delay 100
 
-pip install selenium 
-pip uninstall selenium
-
+5º Abrir CMD e digitar (pip list - Lista as coisas instaladas no python)
 python -m pip install --upgrade pip
 
 
-
+git clone https://github.com/brunoperees/DevAprender.git
 git config --global user.name "Bruno Peres"
 git config --global user.email brunoperees@gmail.com
 
@@ -16,5 +23,6 @@ git config --global user.email brunoperees@gmail.com
 
 pip install pyautogui
 pip install pillow
+pip install mouseinfo
 
-python instal keyboard
+pip install selenium 
