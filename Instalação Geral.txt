@@ -24,5 +24,5 @@ git config --global user.email brunoperees@gmail.com
 pip install pyautogui
 pip install pillow
 pip install mouseinfo
-
+pip install webdriver-manager          #Selenium
 pip install selenium 
